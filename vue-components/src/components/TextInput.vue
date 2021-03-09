@@ -4,6 +4,8 @@
 		<Input
 			:id="id"
 			:value="value"
+			@focus.native="$emit('focus')"
+			@blur.native="$emit('blur')"
 			@input="emitInputEvent"
 			:feedback-type="feedbackType"
 			:placeholder="placeholder"
