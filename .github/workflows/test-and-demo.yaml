@@ -4,6 +4,7 @@
 # - build and upload the storybook to a staging area
 #
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+# trigger CI
 
 on: push
 name: Test and Deploy
